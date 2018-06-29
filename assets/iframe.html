@@ -2,12 +2,37 @@
 <head>
   <meta charset="utf-8">
   <link rel="stylesheet" href="https://assets.zendesk.com/apps/sdk-assets/css/2/zendesk_garden.css" type="text/css">
+  <link href = "https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css" rel = "stylesheet">
   <link rel="stylesheet" href="./main.css" type="text/css">
 </head>
 <body>
+  <p id="clientTime"></p>
+  <p id="custDate">Customer Date &amp; and Time: <br/> <input type = "text" id = "datepicker_customer">
+    <input type = "time" id="customer_time">
+  </p>
+  <p>Your Date &amp; Time: <br/> <input type = "text" id = "datepicker_user">
+    <input type = "time" id="user_time">
+  </p>
+    
+  <button name="schedule" class="button"><span> Schedule </span></button>
+    
+  <span class="color_enabler">
+    <input type="checkbox" name="enable_color" id="enable_color" value="true"> 
+    <span>color mode</span>
+  </span>
   
-  
+  <footer class="contact_us">
+    <p>
+      <span id="userTime"></span>
+      <span class="right_footer">
+        <a href="mailto:jagdish.chauhan01@gmail.com" target="_blank">Contact us</a>
+      </span>
+    </p>    
+  </footer>
+
   <script type="text/javascript" src="https://assets.zendesk.com/apps/sdk/2.0/zaf_sdk.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript" src = "https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
   <script type="text/javascript" src="./main.js"></script>
 </body>
 </html>

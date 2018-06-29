@@ -1,0 +1,96 @@
+.contact_us {
+    font-size: 12px;
+    position: fixed;
+    bottom: 0%;
+  }
+  
+  .right_footer {
+    float: right;
+    padding-left: 30% !important;
+  }
+  
+  code {
+    background-color: #f1f1f1 !important;
+  }
+  
+  .ui-datepicker table {
+    width: 50% !important;
+    font-size: 0.65em !important;
+  }
+  
+  #ui-datepicker-div {
+    height: 73% !important;
+    width: 49% !important;
+  }
+  
+  .ui-datepicker .ui-datepicker-title {
+    margin: 0 !important;
+    line-height: 1em !important;
+    font-size: 12px !important;
+  }
+  
+  .ui-datepicker .ui-datepicker-next {
+    right: 0px !important;
+    top: -30% !important;
+    width: 0.8em !important;
+    height: 0.8em !important;
+    margin-top: 6% !important;
+  }
+  
+  .ui-datepicker .ui-datepicker-prev {
+    left: 0px !important;
+    top: -30% !important;
+    width: 0.8em !important;
+    height: 0.8em !important;
+    margin-top: 6% !important;
+  }
+  
+  .button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #404042;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 16px;
+    padding: 4px;
+    width: 100px;
+  
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -15px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 5px;
+  }
+  
+  #enable_color, #custDate {
+    margin: 5px 0;
+  }
+  
+  .color_enabler {
+    margin-top: 3%;
+    margin-left: 12%;
+  }
