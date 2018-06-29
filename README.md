@@ -13,4 +13,4 @@ green is used to show it is under working hours
 red shows out of working hour
 * Click on Schedule button to select the time
 
-Please submit bug reports to [https://github.com/JDchauhan/time-zone-converter](). Pull requests are welcome.
+Please submit bug reports to [https://github.com/hexerve/time-zone-converter](). Pull requests are welcome.
