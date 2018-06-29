@@ -309,7 +309,24 @@ $(function() {
 
             setCustomerTime(timestamp,timeDiff, isMaxClientOffset);
         });
+    });
 
+    $("#schedule").click(function(){
+        var timestamp = $("#datepicker_customer").datepicker("getDate").getTime() +
+            (parseInt(customer_timeControl.value.slice(0,2)) * 60 + 
+            parseInt(customer_timeControl.value.slice(3,5))) * 60000;
+        var customer_Time = new Date(timestamp).toString();
+        customer_Time = customer_Time.substr(0, customer_Time.indexOf('G')); 
+        
+        timestamp = $("#datepicker_user").datepicker("getDate").getTime() +
+            (parseInt(user_timeControl.value.slice(0,2)) * 60 + 
+            parseInt(user_timeControl.value.slice(3,5))) * 60000;
+        var user_Time = new Date(timestamp).toString();
+        user_Time = user_Time.substr(0, user_Time.indexOf('G')); 
+
+        client.invoke('ticket.tags.add', "scheduled");
+        client.set('comment.text', "meeting scheduled at <br/>customer time: " + 
+            customer_Time + "<br/> Agent Time: " +user_Time );
     });
 
 });
