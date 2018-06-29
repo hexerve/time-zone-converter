@@ -6,7 +6,14 @@
   <link rel="stylesheet" href="./main.css" type="text/css">
 </head>
 <body>
-  <p id="clientTime"></p>
+  <div>
+    <span id="clientTime"></span>
+    <span class="color_enabler">
+      <input type="checkbox" name="enable_color" id="enable_color" value="true"> 
+      <span>color mode</span>
+    </span>
+  </div>
+
   <p id="custDate">Customer Date &amp; and Time: <br/> <input type = "text" id = "datepicker_customer">
     <input type = "time" id="customer_time">
   </p>
@@ -15,11 +22,6 @@
   </p>
     
   <button name="schedule" class="button"><span> Schedule </span></button>
-    
-  <span class="color_enabler">
-    <input type="checkbox" name="enable_color" id="enable_color" value="true"> 
-    <span>color mode</span>
-  </span>
   
   <footer class="contact_us">
     <p>

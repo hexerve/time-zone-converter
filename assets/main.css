@@ -46,7 +46,9 @@
   }
   
   .button {
-    display: inline-block;
+    float: right;
+    margin-right: 18%;
+    margin-top: 3%;
     border-radius: 4px;
     background-color: #404042;
     border: none;
@@ -58,7 +60,6 @@
   
     transition: all 0.5s;
     cursor: pointer;
-    margin: 5px;
   }
   
   .button span {
@@ -91,6 +92,7 @@
   }
   
   .color_enabler {
+    font-size: 10px;
     margin-top: 3%;
-    margin-left: 12%;
+    margin-left: 10%;
   }
