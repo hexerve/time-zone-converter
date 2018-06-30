@@ -56,7 +56,7 @@
             },
             {
                 "field": "remove_tags",
-                "value": "scheduled_0"
+                "value": "scheduled_0 scheduled"
             }]
         },
         "email_reminder_for_schedule_conversation_1": {
@@ -90,7 +90,7 @@
             },
             {
                 "field": "remove_tags",
-                "value": "scheduled_1"
+                "value": "scheduled_1 scheduled"
             }]
         },
         "email_reminder_for_schedule_conversation_2": {
@@ -124,7 +124,7 @@
             },
             {
                 "field": "remove_tags",
-                "value": "scheduled_2"
+                "value": "scheduled_2 scheduled"
             }]
         },
         "email_reminder_for_schedule_conversation_3": {
@@ -158,7 +158,7 @@
             },
             {
                 "field": "remove_tags",
-                "value": "scheduled_3"
+                "value": "scheduled_3 scheduled"
             }]
         },
         "email_reminder_for_schedule_conversation_4": {
@@ -192,7 +192,7 @@
             },
             {
                 "field": "remove_tags",
-                "value": "scheduled_4"
+                "value": "scheduled_4 scheduled"
             }]
         },
         "email_reminder_for_schedule_conversation_5": {
@@ -226,7 +226,7 @@
             },
             {
                 "field": "remove_tags",
-                "value": "schedule_5"
+                "value": "schedule_5 scheduled"
             }]
         },
         "email_reminder_for_schedule_conversation_6": {
@@ -260,7 +260,7 @@
             },
             {
                 "field": "remove_tags",
-                "value": "scheduled_6"
+                "value": "scheduled_6 scheduled"
             }]
         },
         "email_reminder_for_schedule_conversation_7": {
@@ -294,7 +294,7 @@
             },
             {
                 "field": "remove_tags",
-                "value": "schedule_7"
+                "value": "schedule_7 scheduled"
             }]
         },
         "email_reminder_for_schedule_conversation_8": {
@@ -328,7 +328,7 @@
             },
             {
                 "field": "remove_tags",
-                "value": "scheduled_8"
+                "value": "scheduled_8 scheduled"
             }]
         },
         "email_reminder_for_schedule_conversation_9": {
@@ -362,7 +362,7 @@
             },
             {
                 "field": "remove_tags",
-                "value": "scheduled_9"
+                "value": "scheduled_9 scheduled"
             }]
         },
         "email_reminder_for_schedule_conversation_10": {
@@ -396,7 +396,7 @@
             },
             {
                 "field": "remove_tags",
-                "value": "scheduled_10"
+                "value": "scheduled_10 scheduled"
             }]
         },
         "email_reminder_for_schedule_conversation_11": {
@@ -430,7 +430,7 @@
             },
             {
                 "field": "remove_tags",
-                "value": "schedule_11"
+                "value": "schedule_11 scheduled"
             }]
         },
         "email_reminder_for_schedule_conversation_12": {
@@ -464,7 +464,7 @@
             },
             {
                 "field": "remove_tags",
-                "value": "scheduled_12"
+                "value": "scheduled_12 scheduled"
             }]
         },
         "email_reminder_for_schedule_conversation_13": {
@@ -498,7 +498,7 @@
             },
             {
                 "field": "remove_tags",
-                "value": "scheduled_13"
+                "value": "scheduled_13 scheduled"
             }]
         },
         "email_reminder_for_schedule_conversation_14": {
@@ -532,7 +532,7 @@
             },
             {
                 "field": "remove_tags",
-                "value": "scheduled_14"
+                "value": "scheduled_14 scheduled"
             }]
         },
         "email_reminder_for_schedule_conversation_15": {
@@ -566,7 +566,7 @@
             },
             {
                 "field": "remove_tags",
-                "value": "scheduled_15"
+                "value": "scheduled_15 scheduled"
             }]
         },
         "email_reminder_for_schedule_conversation_16": {
@@ -600,7 +600,7 @@
             },
             {
                 "field": "remove_tags",
-                "value": "scheduled_16"
+                "value": "scheduled_16 scheduled"
             }]
         },
         "email_reminder_for_schedule_conversation_17": {
@@ -634,7 +634,7 @@
             },
             {
                 "field": "remove_tags",
-                "value": "scheduled_17"
+                "value": "scheduled_17 scheduled"
             }]
         },
         "email_reminder_for_schedule_conversation_18": {
@@ -668,7 +668,7 @@
             },
             {
                 "field": "remove_tags",
-                "value": "scheduled_18"
+                "value": "scheduled_18 scheduled"
             }]
         },
         "email_reminder_for_schedule_conversation_19": {
@@ -702,7 +702,7 @@
             },
             {
                 "field": "remove_tags",
-                "value": "scheduled_19"
+                "value": "scheduled_19 scheduled"
             }]
         },
         "email_reminder_for_schedule_conversation_20": {
@@ -736,7 +736,7 @@
             },
             {
                 "field": "remove_tags",
-                "value": "scheduled_20"
+                "value": "scheduled_20  scheduled"
             }]
         },
         "email_reminder_for_schedule_conversation_21": {
@@ -745,7 +745,7 @@
             {
                 "field": "current_tags",
                 "operator": "includes",
-                "value": "scheduled_21"
+                "value": "scheduled_21 "
             
             },
             {
@@ -770,7 +770,7 @@
             },
             {
                 "field": "remove_tags",
-                "value": "scheduled_21"
+                "value": "scheduled_21 scheduled"
             }]
         },
         "email_reminder_for_schedule_conversation_22": {
@@ -804,7 +804,7 @@
             },
             {
                 "field": "remove_tags",
-                "value": "scheduled_22"
+                "value": "scheduled_22 scheduled"
             }]
         },
         "email_reminder_for_schedule_conversation_23": {
@@ -838,7 +838,7 @@
             },
             {
                 "field": "remove_tags",
-                "value": "scheduled_23"
+                "value": "scheduled_23 scheduled"
             }]
         }
     }

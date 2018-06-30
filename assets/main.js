@@ -251,14 +251,14 @@ $(function() {
         
         $( "#datepicker_customer" ).datepicker(
             { 
-                minDate: new Date(clientTime.Y, clientTime.M, clientTime.D),
+                minDate: new Date(clientTime.Y, clientTime.M - 1, clientTime.D),
                 dateFormat: "dd-mm-yy", 
             }
         );
         
         $( "#datepicker_user" ).datepicker(
             { 
-                minDate: new Date(userTime.Y, userTime.M, userTime.D),
+                minDate: new Date(userTime.Y, userTime.M - 1, userTime.D),
                 dateFormat: "dd-mm-yy", 
             }
         );
@@ -324,9 +324,89 @@ $(function() {
         var user_Time = new Date(timestamp).toString();
         user_Time = user_Time.substr(0, user_Time.indexOf('G')); 
 
+        var hours_since_due_date = parseInt(user_timeControl.value.slice(0,2));
+        var tag = "scheduled_";
+        switch(hours_since_due_date){
+            case 0 : 
+                tag += "0";
+                break;
+            case 1 : 
+                tag += "1";
+                break;
+            case 2 : 
+                tag += "2";
+                break;
+            case 3 : 
+                tag += "3";
+                break;
+            case 4 : 
+                tag += "4";
+                break;
+            case 5 : 
+                tag += "5";
+                break;
+            case 6 : 
+                tag += "6";
+                break;
+            case 7 : 
+                tag += "7";
+                break;
+            case 8 : 
+                tag += "8";
+                break;
+            case 9 : 
+                tag += "9";
+                break;
+            case 10 : 
+                tag += "10";
+                break;
+            case 11 : 
+                tag += "11";
+                break;
+            case 12 : 
+                tag += "12";
+                break;
+            case 13 : 
+                tag += "13";
+                break;
+            case 14 : 
+                tag += "14";
+                break;
+            case 15 : 
+                tag += "15";
+                break;
+            case 16 : 
+                tag += "16";
+                break;
+            case 17 : 
+                tag += "17";
+                break;
+            case 18 : 
+                tag += "18";
+                break;
+            case 19 : 
+                tag += "19";
+                break;
+            case 20 : 
+                tag += "20";
+                break;
+            case 21 : 
+                tag += "21";
+                break;
+            case 22 : 
+                tag += "22";                
+                break;
+            case 23 : 
+                tag += "23";
+                break;
+        }
+        for(var i = 0; i < 23; i++){
+            client.invoke('ticket.tags.remove', "scheduled_" + i);
+        }
+        client.invoke('ticket.tags.add', tag);
         client.invoke('ticket.tags.add', "scheduled");
         client.set('comment.text', "meeting scheduled at <br/>customer time: " + 
-            customer_Time + "<br/> Agent Time: " +user_Time );
+            customer_Time + "<br/> Agent Time: " + user_Time);
 
         client.set('ticket.type', "task");
         client.set('ticket.customField:due_date', new Date(timestamp));
