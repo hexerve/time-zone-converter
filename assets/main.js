@@ -327,6 +327,9 @@ $(function() {
         client.invoke('ticket.tags.add', "scheduled");
         client.set('comment.text', "meeting scheduled at <br/>customer time: " + 
             customer_Time + "<br/> Agent Time: " +user_Time );
+
+        client.set('ticket.type', "task");
+        client.set('ticket.customField:due_date', new Date(timestamp));
     });
 
 });
