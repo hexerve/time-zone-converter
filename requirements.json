@@ -1,27 +1,845 @@
 {
     "triggers": {
-      "email_on_schedule_created": {
-        "title": "Email on schedule created",
-        "all": [{
-            "field": "current_tags",
-            "operator": "includes",
-            "value": "scheduled"
+        "email_on_schedule_created": {
+            "title": "Email on schedule created",
+            "all": [{
+                "field": "current_tags",
+                "operator": "includes",
+                "value": "scheduled"
+            },
+            {
+                "field": "comment_includes_word",
+                "operator": "includes",
+                "value": "meeting schedule"
+            }],
+            "actions": [{
+                "field": "notification_user",
+                "value": ["requester_id", "Meeting Scheduled",
+                    "Ticket {{ticket.id}} has succesfully schedule a meeting. {{ticket.latest_public_comment_formatted}}"]
+            },
+            {
+                "field": "notification_user",
+                "value": ["assignee_id", "Meeting Scheduled", 
+                    "Ticket {{ticket.id}} has succesfully schedule a meeting. {{ticket.latest_public_comment_formatted}}"]  
+            }]
+        }
+    },
+    "automations": {
+        "email_reminder_for_schedule_conversation": {
+            "title": "Email reminder for upcoming schedule",
+            "all": [
+            {
+                "field": "current_tags",
+                "operator": "includes",
+                "value": "scheduled_0"
+            
+            },
+            {
+                "field": "due_date",
+                "operator": "less_than",
+                "value": "1"
+            },
+            {
+                "field": "type",
+                "operator": "is",
+                "value": "task"
+            }],
+            "actions": [{
+                "field": "notification_user",
+                "value": ["requester_id", "Reminder: Meeting Scheduled",
+                    "Ticket {{ticket.id}} has succesfully schedule a meeting. {{ticket.latest_public_comment_formatted}}"]
+            },
+            {
+                "field": "notification_user",
+                "value": ["assignee_id", "Reminder: Meeting Scheduled", 
+                    "Ticket {{ticket.id}} has succesfully schedule a meeting. {{ticket.latest_public_comment_formatted}}"]  
+            },
+            {
+                "field": "remove_tags",
+                "value": "scheduled_0"
+            }]
         },
-        {
-            "field": "comment_includes_word",
-            "operator": "includes",
-            "value": "meeting schedule"
-        }],
-        "actions": [{
-            "field": "notification_user",
-            "value": ["requester_id", "Meeting Scheduled",
-                "Ticket {{ticket.id}} has succesfully schedule a meeting. {{ticket.latest_public_comment_formatted}}"]
+        "email_reminder_for_schedule_conversation_1": {
+            "title": "Email reminder for upcoming schedule",
+            "all": [
+            {
+                "field": "current_tags",
+                "operator": "includes",
+                "value": "scheduled_1"
+            
+            },
+            {
+                "field": "due_date",
+                "operator": "is",
+                "value": "1"
+            },
+            {
+                "field": "type",
+                "operator": "is",
+                "value": "task"
+            }],
+            "actions": [{
+                "field": "notification_user",
+                "value": ["requester_id", "Reminder: Meeting Scheduled",
+                    "Ticket {{ticket.id}} has succesfully schedule a meeting. {{ticket.latest_public_comment_formatted}}"]
+            },
+            {
+                "field": "notification_user",
+                "value": ["assignee_id", "Reminder: Meeting Scheduled", 
+                    "Ticket {{ticket.id}} has succesfully schedule a meeting. {{ticket.latest_public_comment_formatted}}"]  
+            },
+            {
+                "field": "remove_tags",
+                "value": "scheduled_1"
+            }]
         },
-        {
-            "field": "notification_user",
-            "value": ["assignee_id", "Meeting Scheduled", 
-                "Ticket {{ticket.id}} has succesfully schedule a meeting. {{ticket.latest_public_comment_formatted}}"]  
-        }]
-      }
+        "email_reminder_for_schedule_conversation_2": {
+            "title": "Email reminder for upcoming schedule",
+            "all": [
+            {
+                "field": "current_tags",
+                "operator": "includes",
+                "value": "scheduled_2"
+            
+            },
+            {
+                "field": "due_date",
+                "operator": "is",
+                "value": "2"
+            },
+            {
+                "field": "type",
+                "operator": "is",
+                "value": "task"
+            }],
+            "actions": [{
+                "field": "notification_user",
+                "value": ["requester_id", "Reminder: Meeting Scheduled",
+                    "Ticket {{ticket.id}} has succesfully schedule a meeting. {{ticket.latest_public_comment_formatted}}"]
+            },
+            {
+                "field": "notification_user",
+                "value": ["assignee_id", "Reminder: Meeting Scheduled", 
+                    "Ticket {{ticket.id}} has succesfully schedule a meeting. {{ticket.latest_public_comment_formatted}}"]  
+            },
+            {
+                "field": "remove_tags",
+                "value": "scheduled_2"
+            }]
+        },
+        "email_reminder_for_schedule_conversation_3": {
+            "title": "Email reminder for upcoming schedule",
+            "all": [
+            {
+                "field": "current_tags",
+                "operator": "includes",
+                "value": "scheduled_3"
+            
+            },
+            {
+                "field": "due_date",
+                "operator": "is",
+                "value": "3"
+            },
+            {
+                "field": "type",
+                "operator": "is",
+                "value": "task"
+            }],
+            "actions": [{
+                "field": "notification_user",
+                "value": ["requester_id", "Reminder: Meeting Scheduled",
+                    "Ticket {{ticket.id}} has succesfully schedule a meeting. {{ticket.latest_public_comment_formatted}}"]
+            },
+            {
+                "field": "notification_user",
+                "value": ["assignee_id", "Reminder: Meeting Scheduled", 
+                    "Ticket {{ticket.id}} has succesfully schedule a meeting. {{ticket.latest_public_comment_formatted}}"]  
+            },
+            {
+                "field": "remove_tags",
+                "value": "scheduled_3"
+            }]
+        },
+        "email_reminder_for_schedule_conversation_4": {
+            "title": "Email reminder for upcoming schedule",
+            "all": [
+            {
+                "field": "current_tags",
+                "operator": "includes",
+                "value": "scheduled_4"
+            
+            },
+            {
+                "field": "due_date",
+                "operator": "is",
+                "value": "4"
+            },
+            {
+                "field": "type",
+                "operator": "is",
+                "value": "task"
+            }],
+            "actions": [{
+                "field": "notification_user",
+                "value": ["requester_id", "Reminder: Meeting Scheduled",
+                    "Ticket {{ticket.id}} has succesfully schedule a meeting. {{ticket.latest_public_comment_formatted}}"]
+            },
+            {
+                "field": "notification_user",
+                "value": ["assignee_id", "Reminder: Meeting Scheduled", 
+                    "Ticket {{ticket.id}} has succesfully schedule a meeting. {{ticket.latest_public_comment_formatted}}"]  
+            },
+            {
+                "field": "remove_tags",
+                "value": "scheduled_4"
+            }]
+        },
+        "email_reminder_for_schedule_conversation_5": {
+            "title": "Email reminder for upcoming schedule",
+            "all": [
+            {
+                "field": "current_tags",
+                "operator": "includes",
+                "value": "scheduled_5"
+            
+            },
+            {
+                "field": "due_date",
+                "operator": "is",
+                "value": "5"
+            },
+            {
+                "field": "type",
+                "operator": "is",
+                "value": "task"
+            }],
+            "actions": [{
+                "field": "notification_user",
+                "value": ["requester_id", "Reminder: Meeting Scheduled",
+                    "Ticket {{ticket.id}} has succesfully schedule a meeting. {{ticket.latest_public_comment_formatted}}"]
+            },
+            {
+                "field": "notification_user",
+                "value": ["assignee_id", "Reminder: Meeting Scheduled", 
+                    "Ticket {{ticket.id}} has succesfully schedule a meeting. {{ticket.latest_public_comment_formatted}}"]  
+            },
+            {
+                "field": "remove_tags",
+                "value": "schedule_5"
+            }]
+        },
+        "email_reminder_for_schedule_conversation_6": {
+            "title": "Email reminder for upcoming schedule",
+            "all": [
+            {
+                "field": "current_tags",
+                "operator": "includes",
+                "value": "scheduled_6"
+            
+            },
+            {
+                "field": "due_date",
+                "operator": "is",
+                "value": "6"
+            },
+            {
+                "field": "type",
+                "operator": "is",
+                "value": "task"
+            }],
+            "actions": [{
+                "field": "notification_user",
+                "value": ["requester_id", "Reminder: Meeting Scheduled",
+                    "Ticket {{ticket.id}} has succesfully schedule a meeting. {{ticket.latest_public_comment_formatted}}"]
+            },
+            {
+                "field": "notification_user",
+                "value": ["assignee_id", "Reminder: Meeting Scheduled", 
+                    "Ticket {{ticket.id}} has succesfully schedule a meeting. {{ticket.latest_public_comment_formatted}}"]  
+            },
+            {
+                "field": "remove_tags",
+                "value": "scheduled_6"
+            }]
+        },
+        "email_reminder_for_schedule_conversation_7": {
+            "title": "Email reminder for upcoming schedule",
+            "all": [
+            {
+                "field": "current_tags",
+                "operator": "includes",
+                "value": "scheduled_7"
+            
+            },
+            {
+                "field": "due_date",
+                "operator": "is",
+                "value": "7"
+            },
+            {
+                "field": "type",
+                "operator": "is",
+                "value": "task"
+            }],
+            "actions": [{
+                "field": "notification_user",
+                "value": ["requester_id", "Reminder: Meeting Scheduled",
+                    "Ticket {{ticket.id}} has succesfully schedule a meeting. {{ticket.latest_public_comment_formatted}}"]
+            },
+            {
+                "field": "notification_user",
+                "value": ["assignee_id", "Reminder: Meeting Scheduled", 
+                    "Ticket {{ticket.id}} has succesfully schedule a meeting. {{ticket.latest_public_comment_formatted}}"]  
+            },
+            {
+                "field": "remove_tags",
+                "value": "schedule_7"
+            }]
+        },
+        "email_reminder_for_schedule_conversation_8": {
+            "title": "Email reminder for upcoming schedule",
+            "all": [
+            {
+                "field": "current_tags",
+                "operator": "includes",
+                "value": "scheduled_8"
+            
+            },
+            {
+                "field": "due_date",
+                "operator": "is",
+                "value": "8"
+            },
+            {
+                "field": "type",
+                "operator": "is",
+                "value": "task"
+            }],
+            "actions": [{
+                "field": "notification_user",
+                "value": ["requester_id", "Reminder: Meeting Scheduled",
+                    "Ticket {{ticket.id}} has succesfully schedule a meeting. {{ticket.latest_public_comment_formatted}}"]
+            },
+            {
+                "field": "notification_user",
+                "value": ["assignee_id", "Reminder: Meeting Scheduled", 
+                    "Ticket {{ticket.id}} has succesfully schedule a meeting. {{ticket.latest_public_comment_formatted}}"]  
+            },
+            {
+                "field": "remove_tags",
+                "value": "scheduled_8"
+            }]
+        },
+        "email_reminder_for_schedule_conversation_9": {
+            "title": "Email reminder for upcoming schedule",
+            "all": [
+            {
+                "field": "current_tags",
+                "operator": "includes",
+                "value": "scheduled_9"
+            
+            },
+            {
+                "field": "due_date",
+                "operator": "is",
+                "value": "9"
+            },
+            {
+                "field": "type",
+                "operator": "is",
+                "value": "task"
+            }],
+            "actions": [{
+                "field": "notification_user",
+                "value": ["requester_id", "Reminder: Meeting Scheduled",
+                    "Ticket {{ticket.id}} has succesfully schedule a meeting. {{ticket.latest_public_comment_formatted}}"]
+            },
+            {
+                "field": "notification_user",
+                "value": ["assignee_id", "Reminder: Meeting Scheduled", 
+                    "Ticket {{ticket.id}} has succesfully schedule a meeting. {{ticket.latest_public_comment_formatted}}"]  
+            },
+            {
+                "field": "remove_tags",
+                "value": "scheduled_9"
+            }]
+        },
+        "email_reminder_for_schedule_conversation_10": {
+            "title": "Email reminder for upcoming schedule",
+            "all": [
+            {
+                "field": "current_tags",
+                "operator": "includes",
+                "value": "scheduled_10"
+            
+            },
+            {
+                "field": "due_date",
+                "operator": "is",
+                "value": "10"
+            },
+            {
+                "field": "type",
+                "operator": "is",
+                "value": "task"
+            }],
+            "actions": [{
+                "field": "notification_user",
+                "value": ["requester_id", "Reminder: Meeting Scheduled",
+                    "Ticket {{ticket.id}} has succesfully schedule a meeting. {{ticket.latest_public_comment_formatted}}"]
+            },
+            {
+                "field": "notification_user",
+                "value": ["assignee_id", "Reminder: Meeting Scheduled", 
+                    "Ticket {{ticket.id}} has succesfully schedule a meeting. {{ticket.latest_public_comment_formatted}}"]  
+            },
+            {
+                "field": "remove_tags",
+                "value": "scheduled_10"
+            }]
+        },
+        "email_reminder_for_schedule_conversation_11": {
+            "title": "Email reminder for upcoming schedule",
+            "all": [
+            {
+                "field": "current_tags",
+                "operator": "includes",
+                "value": "scheduled_11"
+            
+            },
+            {
+                "field": "due_date",
+                "operator": "is",
+                "value": "11"
+            },
+            {
+                "field": "type",
+                "operator": "is",
+                "value": "task"
+            }],
+            "actions": [{
+                "field": "notification_user",
+                "value": ["requester_id", "Reminder: Meeting Scheduled",
+                    "Ticket {{ticket.id}} has succesfully schedule a meeting. {{ticket.latest_public_comment_formatted}}"]
+            },
+            {
+                "field": "notification_user",
+                "value": ["assignee_id", "Reminder: Meeting Scheduled", 
+                    "Ticket {{ticket.id}} has succesfully schedule a meeting. {{ticket.latest_public_comment_formatted}}"]  
+            },
+            {
+                "field": "remove_tags",
+                "value": "schedule_11"
+            }]
+        },
+        "email_reminder_for_schedule_conversation_12": {
+            "title": "Email reminder for upcoming schedule",
+            "all": [
+            {
+                "field": "current_tags",
+                "operator": "includes",
+                "value": "scheduled_12"
+            
+            },
+            {
+                "field": "due_date",
+                "operator": "is",
+                "value": "12"
+            },
+            {
+                "field": "type",
+                "operator": "is",
+                "value": "task"
+            }],
+            "actions": [{
+                "field": "notification_user",
+                "value": ["requester_id", "Reminder: Meeting Scheduled",
+                    "Ticket {{ticket.id}} has succesfully schedule a meeting. {{ticket.latest_public_comment_formatted}}"]
+            },
+            {
+                "field": "notification_user",
+                "value": ["assignee_id", "Reminder: Meeting Scheduled", 
+                    "Ticket {{ticket.id}} has succesfully schedule a meeting. {{ticket.latest_public_comment_formatted}}"]  
+            },
+            {
+                "field": "remove_tags",
+                "value": "scheduled_12"
+            }]
+        },
+        "email_reminder_for_schedule_conversation_13": {
+            "title": "Email reminder for upcoming schedule",
+            "all": [
+            {
+                "field": "current_tags",
+                "operator": "includes",
+                "value": "scheduled_13"
+            
+            },
+            {
+                "field": "due_date",
+                "operator": "is",
+                "value": "13"
+            },
+            {
+                "field": "type",
+                "operator": "is",
+                "value": "task"
+            }],
+            "actions": [{
+                "field": "notification_user",
+                "value": ["requester_id", "Reminder: Meeting Scheduled",
+                    "Ticket {{ticket.id}} has succesfully schedule a meeting. {{ticket.latest_public_comment_formatted}}"]
+            },
+            {
+                "field": "notification_user",
+                "value": ["assignee_id", "Reminder: Meeting Scheduled", 
+                    "Ticket {{ticket.id}} has succesfully schedule a meeting. {{ticket.latest_public_comment_formatted}}"]  
+            },
+            {
+                "field": "remove_tags",
+                "value": "scheduled_13"
+            }]
+        },
+        "email_reminder_for_schedule_conversation_14": {
+            "title": "Email reminder for upcoming schedule",
+            "all": [
+            {
+                "field": "current_tags",
+                "operator": "includes",
+                "value": "scheduled_14"
+            
+            },
+            {
+                "field": "due_date",
+                "operator": "is",
+                "value": "14"
+            },
+            {
+                "field": "type",
+                "operator": "is",
+                "value": "task"
+            }],
+            "actions": [{
+                "field": "notification_user",
+                "value": ["requester_id", "Reminder: Meeting Scheduled",
+                    "Ticket {{ticket.id}} has succesfully schedule a meeting. {{ticket.latest_public_comment_formatted}}"]
+            },
+            {
+                "field": "notification_user",
+                "value": ["assignee_id", "Reminder: Meeting Scheduled", 
+                    "Ticket {{ticket.id}} has succesfully schedule a meeting. {{ticket.latest_public_comment_formatted}}"]  
+            },
+            {
+                "field": "remove_tags",
+                "value": "scheduled_14"
+            }]
+        },
+        "email_reminder_for_schedule_conversation_15": {
+            "title": "Email reminder for upcoming schedule",
+            "all": [
+            {
+                "field": "current_tags",
+                "operator": "includes",
+                "value": "scheduled_15"
+            
+            },
+            {
+                "field": "due_date",
+                "operator": "is",
+                "value": "15"
+            },
+            {
+                "field": "type",
+                "operator": "is",
+                "value": "task"
+            }],
+            "actions": [{
+                "field": "notification_user",
+                "value": ["requester_id", "Reminder: Meeting Scheduled",
+                    "Ticket {{ticket.id}} has succesfully schedule a meeting. {{ticket.latest_public_comment_formatted}}"]
+            },
+            {
+                "field": "notification_user",
+                "value": ["assignee_id", "Reminder: Meeting Scheduled", 
+                    "Ticket {{ticket.id}} has succesfully schedule a meeting. {{ticket.latest_public_comment_formatted}}"]  
+            },
+            {
+                "field": "remove_tags",
+                "value": "scheduled_15"
+            }]
+        },
+        "email_reminder_for_schedule_conversation_16": {
+            "title": "Email reminder for upcoming schedule",
+            "all": [
+            {
+                "field": "current_tags",
+                "operator": "includes",
+                "value": "scheduled_16"
+            
+            },
+            {
+                "field": "due_date",
+                "operator": "is",
+                "value": "16"
+            },
+            {
+                "field": "type",
+                "operator": "is",
+                "value": "task"
+            }],
+            "actions": [{
+                "field": "notification_user",
+                "value": ["requester_id", "Reminder: Meeting Scheduled",
+                    "Ticket {{ticket.id}} has succesfully schedule a meeting. {{ticket.latest_public_comment_formatted}}"]
+            },
+            {
+                "field": "notification_user",
+                "value": ["assignee_id", "Reminder: Meeting Scheduled", 
+                    "Ticket {{ticket.id}} has succesfully schedule a meeting. {{ticket.latest_public_comment_formatted}}"]  
+            },
+            {
+                "field": "remove_tags",
+                "value": "scheduled_16"
+            }]
+        },
+        "email_reminder_for_schedule_conversation_17": {
+            "title": "Email reminder for upcoming schedule",
+            "all": [
+            {
+                "field": "current_tags",
+                "operator": "includes",
+                "value": "scheduled_17"
+            
+            },
+            {
+                "field": "due_date",
+                "operator": "is",
+                "value": "17"
+            },
+            {
+                "field": "type",
+                "operator": "is",
+                "value": "task"
+            }],
+            "actions": [{
+                "field": "notification_user",
+                "value": ["requester_id", "Reminder: Meeting Scheduled",
+                    "Ticket {{ticket.id}} has succesfully schedule a meeting. {{ticket.latest_public_comment_formatted}}"]
+            },
+            {
+                "field": "notification_user",
+                "value": ["assignee_id", "Reminder: Meeting Scheduled", 
+                    "Ticket {{ticket.id}} has succesfully schedule a meeting. {{ticket.latest_public_comment_formatted}}"]  
+            },
+            {
+                "field": "remove_tags",
+                "value": "scheduled_17"
+            }]
+        },
+        "email_reminder_for_schedule_conversation_18": {
+            "title": "Email reminder for upcoming schedule",
+            "all": [
+            {
+                "field": "current_tags",
+                "operator": "includes",
+                "value": "scheduled_18"
+            
+            },
+            {
+                "field": "due_date",
+                "operator": "is",
+                "value": "18"
+            },
+            {
+                "field": "type",
+                "operator": "is",
+                "value": "task"
+            }],
+            "actions": [{
+                "field": "notification_user",
+                "value": ["requester_id", "Reminder: Meeting Scheduled",
+                    "Ticket {{ticket.id}} has succesfully schedule a meeting. {{ticket.latest_public_comment_formatted}}"]
+            },
+            {
+                "field": "notification_user",
+                "value": ["assignee_id", "Reminder: Meeting Scheduled", 
+                    "Ticket {{ticket.id}} has succesfully schedule a meeting. {{ticket.latest_public_comment_formatted}}"]  
+            },
+            {
+                "field": "remove_tags",
+                "value": "scheduled_18"
+            }]
+        },
+        "email_reminder_for_schedule_conversation_19": {
+            "title": "Email reminder for upcoming schedule",
+            "all": [
+            {
+                "field": "current_tags",
+                "operator": "includes",
+                "value": "scheduled_19"
+            
+            },
+            {
+                "field": "due_date",
+                "operator": "is",
+                "value": "19"
+            },
+            {
+                "field": "type",
+                "operator": "is",
+                "value": "task"
+            }],
+            "actions": [{
+                "field": "notification_user",
+                "value": ["requester_id", "Reminder: Meeting Scheduled",
+                    "Ticket {{ticket.id}} has succesfully schedule a meeting. {{ticket.latest_public_comment_formatted}}"]
+            },
+            {
+                "field": "notification_user",
+                "value": ["assignee_id", "Reminder: Meeting Scheduled", 
+                    "Ticket {{ticket.id}} has succesfully schedule a meeting. {{ticket.latest_public_comment_formatted}}"]  
+            },
+            {
+                "field": "remove_tags",
+                "value": "scheduled_19"
+            }]
+        },
+        "email_reminder_for_schedule_conversation_20": {
+            "title": "Email reminder for upcoming schedule",
+            "all": [
+            {
+                "field": "current_tags",
+                "operator": "includes",
+                "value": "scheduled_20"
+            
+            },
+            {
+                "field": "due_date",
+                "operator": "is",
+                "value": "20"
+            },
+            {
+                "field": "type",
+                "operator": "is",
+                "value": "task"
+            }],
+            "actions": [{
+                "field": "notification_user",
+                "value": ["requester_id", "Reminder: Meeting Scheduled",
+                    "Ticket {{ticket.id}} has succesfully schedule a meeting. {{ticket.latest_public_comment_formatted}}"]
+            },
+            {
+                "field": "notification_user",
+                "value": ["assignee_id", "Reminder: Meeting Scheduled", 
+                    "Ticket {{ticket.id}} has succesfully schedule a meeting. {{ticket.latest_public_comment_formatted}}"]  
+            },
+            {
+                "field": "remove_tags",
+                "value": "scheduled_20"
+            }]
+        },
+        "email_reminder_for_schedule_conversation_21": {
+            "title": "Email reminder for upcoming schedule",
+            "all": [
+            {
+                "field": "current_tags",
+                "operator": "includes",
+                "value": "scheduled_21"
+            
+            },
+            {
+                "field": "due_date",
+                "operator": "is",
+                "value": "21"
+            },
+            {
+                "field": "type",
+                "operator": "is",
+                "value": "task"
+            }],
+            "actions": [{
+                "field": "notification_user",
+                "value": ["requester_id", "Reminder: Meeting Scheduled",
+                    "Ticket {{ticket.id}} has succesfully schedule a meeting. {{ticket.latest_public_comment_formatted}}"]
+            },
+            {
+                "field": "notification_user",
+                "value": ["assignee_id", "Reminder: Meeting Scheduled", 
+                    "Ticket {{ticket.id}} has succesfully schedule a meeting. {{ticket.latest_public_comment_formatted}}"]  
+            },
+            {
+                "field": "remove_tags",
+                "value": "scheduled_21"
+            }]
+        },
+        "email_reminder_for_schedule_conversation_22": {
+            "title": "Email reminder for upcoming schedule",
+            "all": [
+            {
+                "field": "current_tags",
+                "operator": "includes",
+                "value": "scheduled_22"
+            
+            },
+            {
+                "field": "due_date",
+                "operator": "is",
+                "value": "22"
+            },
+            {
+                "field": "type",
+                "operator": "is",
+                "value": "task"
+            }],
+            "actions": [{
+                "field": "notification_user",
+                "value": ["requester_id", "Reminder: Meeting Scheduled",
+                    "Ticket {{ticket.id}} has succesfully schedule a meeting. {{ticket.latest_public_comment_formatted}}"]
+            },
+            {
+                "field": "notification_user",
+                "value": ["assignee_id", "Reminder: Meeting Scheduled", 
+                    "Ticket {{ticket.id}} has succesfully schedule a meeting. {{ticket.latest_public_comment_formatted}}"]  
+            },
+            {
+                "field": "remove_tags",
+                "value": "scheduled_22"
+            }]
+        },
+        "email_reminder_for_schedule_conversation_23": {
+            "title": "Email reminder for upcoming schedule",
+            "all": [
+            {
+                "field": "current_tags",
+                "operator": "includes",
+                "value": "scheduled_23"
+            
+            },
+            {
+                "field": "due_date",
+                "operator": "is",
+                "value": "23"
+            },
+            {
+                "field": "type",
+                "operator": "is",
+                "value": "task"
+            }],
+            "actions": [{
+                "field": "notification_user",
+                "value": ["requester_id", "Reminder: Meeting Scheduled",
+                    "Ticket {{ticket.id}} has succesfully schedule a meeting. {{ticket.latest_public_comment_formatted}}"]
+            },
+            {
+                "field": "notification_user",
+                "value": ["assignee_id", "Reminder: Meeting Scheduled", 
+                    "Ticket {{ticket.id}} has succesfully schedule a meeting. {{ticket.latest_public_comment_formatted}}"]  
+            },
+            {
+                "field": "remove_tags",
+                "value": "scheduled_23"
+            }]
+        }
     }
-  }
+}
