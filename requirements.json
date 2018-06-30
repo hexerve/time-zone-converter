@@ -1,0 +1,27 @@
+{
+    "triggers": {
+      "email_on_schedule_created": {
+        "title": "Email on schedule created",
+        "all": [{
+            "field": "current_tags",
+            "operator": "includes",
+            "value": "scheduled"
+        },
+        {
+            "field": "comment_includes_word",
+            "operator": "includes",
+            "value": "meeting schedule"
+        }],
+        "actions": [{
+            "field": "notification_user",
+            "value": ["requester_id", "Meeting Scheduled",
+                "Ticket {{ticket.id}} has succesfully schedule a meeting. {{ticket.latest_public_comment_formatted}}"]
+        },
+        {
+            "field": "notification_user",
+            "value": ["assignee_id", "Meeting Scheduled", 
+                "Ticket {{ticket.id}} has succesfully schedule a meeting. {{ticket.latest_public_comment_formatted}}"]  
+        }]
+      }
+    }
+  }
