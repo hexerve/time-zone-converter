@@ -35,9 +35,9 @@
             
             },
             {
-                "field": "due_date",
-                "operator": "less_than",
-                "value": "1"
+                "field": "until_due_date",
+                "operator": "is",
+                "value": "13"
             },
             {
                 "field": "type",
@@ -69,9 +69,9 @@
             
             },
             {
-                "field": "due_date",
+                "field": "until_due_date",
                 "operator": "is",
-                "value": "1"
+                "value": "12"
             },
             {
                 "field": "type",
@@ -103,9 +103,9 @@
             
             },
             {
-                "field": "due_date",
+                "field": "until_due_date",
                 "operator": "is",
-                "value": "2"
+                "value": "11"
             },
             {
                 "field": "type",
@@ -137,9 +137,9 @@
             
             },
             {
-                "field": "due_date",
+                "field": "until_due_date",
                 "operator": "is",
-                "value": "3"
+                "value": "10"
             },
             {
                 "field": "type",
@@ -171,9 +171,9 @@
             
             },
             {
-                "field": "due_date",
+                "field": "until_due_date",
                 "operator": "is",
-                "value": "4"
+                "value": "9"
             },
             {
                 "field": "type",
@@ -205,9 +205,9 @@
             
             },
             {
-                "field": "due_date",
+                "field": "until_due_date",
                 "operator": "is",
-                "value": "5"
+                "value": "8"
             },
             {
                 "field": "type",
@@ -239,9 +239,9 @@
             
             },
             {
-                "field": "due_date",
+                "field": "until_due_date",
                 "operator": "is",
-                "value": "6"
+                "value": "7"
             },
             {
                 "field": "type",
@@ -273,9 +273,9 @@
             
             },
             {
-                "field": "due_date",
+                "field": "until_due_date",
                 "operator": "is",
-                "value": "7"
+                "value": "6"
             },
             {
                 "field": "type",
@@ -307,9 +307,9 @@
             
             },
             {
-                "field": "due_date",
+                "field": "until_due_date",
                 "operator": "is",
-                "value": "8"
+                "value": "5"
             },
             {
                 "field": "type",
@@ -338,12 +338,11 @@
                 "field": "current_tags",
                 "operator": "includes",
                 "value": "scheduled_9"
-            
             },
             {
-                "field": "due_date",
+                "field": "until_due_date",
                 "operator": "is",
-                "value": "9"
+                "value": "4"
             },
             {
                 "field": "type",
@@ -375,9 +374,9 @@
             
             },
             {
-                "field": "due_date",
+                "field": "until_due_date",
                 "operator": "is",
-                "value": "10"
+                "value": "3"
             },
             {
                 "field": "type",
@@ -409,9 +408,9 @@
             
             },
             {
-                "field": "due_date",
+                "field": "until_due_date",
                 "operator": "is",
-                "value": "11"
+                "value": "2"
             },
             {
                 "field": "type",
@@ -443,9 +442,9 @@
             
             },
             {
-                "field": "due_date",
+                "field": "until_due_date",
                 "operator": "is",
-                "value": "12"
+                "value": "1"
             },
             {
                 "field": "type",
@@ -478,8 +477,8 @@
             },
             {
                 "field": "due_date",
-                "operator": "is",
-                "value": "13"
+                "operator": "less_than",
+                "value": "1"
             },
             {
                 "field": "type",
@@ -513,7 +512,7 @@
             {
                 "field": "due_date",
                 "operator": "is",
-                "value": "14"
+                "value": "1"
             },
             {
                 "field": "type",
@@ -547,7 +546,7 @@
             {
                 "field": "due_date",
                 "operator": "is",
-                "value": "15"
+                "value": "2"
             },
             {
                 "field": "type",
@@ -581,7 +580,7 @@
             {
                 "field": "due_date",
                 "operator": "is",
-                "value": "16"
+                "value": "3"
             },
             {
                 "field": "type",
@@ -615,7 +614,7 @@
             {
                 "field": "due_date",
                 "operator": "is",
-                "value": "17"
+                "value": "4"
             },
             {
                 "field": "type",
@@ -649,7 +648,7 @@
             {
                 "field": "due_date",
                 "operator": "is",
-                "value": "18"
+                "value": "5"
             },
             {
                 "field": "type",
@@ -683,7 +682,7 @@
             {
                 "field": "due_date",
                 "operator": "is",
-                "value": "19"
+                "value": "6"
             },
             {
                 "field": "type",
@@ -717,7 +716,7 @@
             {
                 "field": "due_date",
                 "operator": "is",
-                "value": "20"
+                "value": "7"
             },
             {
                 "field": "type",
@@ -751,7 +750,7 @@
             {
                 "field": "due_date",
                 "operator": "is",
-                "value": "21"
+                "value": "8"
             },
             {
                 "field": "type",
@@ -785,7 +784,7 @@
             {
                 "field": "due_date",
                 "operator": "is",
-                "value": "22"
+                "value": "9"
             },
             {
                 "field": "type",
@@ -819,7 +818,7 @@
             {
                 "field": "due_date",
                 "operator": "is",
-                "value": "23"
+                "value": "10"
             },
             {
                 "field": "type",

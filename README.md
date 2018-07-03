@@ -12,6 +12,8 @@ This App is used to find and schedule meeting at Ticket Requester and Assignee's
 green is used to show it is under working hours
 red shows out of working hour
 * Click on Schedule button to select the time
+* Edit comment if required 
+* Click on submit button to notify requester
 
 ### Stack:
 
