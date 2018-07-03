@@ -6,29 +6,40 @@
   <link rel="stylesheet" href="./main.css" type="text/css">
 </head>
 <body>
-  <p id="clientTime"></p>
-  <p id="custDate">Customer Date &amp; and Time: <br/> <input type = "text" id = "datepicker_customer">
-    <input type = "time" id="customer_time">
-  </p>
-  <p>Your Date &amp; Time: <br/> <input type = "text" id = "datepicker_user">
-    <input type = "time" id="user_time">
-  </p>
+
+  <div class="container">
+    <p id="custDate"><span id="custName"></span>'s Date &amp; Time: <br/>
+      <input type = "text" id = "datepicker_customer" class="date_time">
+      <input type = "time" id="customer_time" class="date_time">
+    </p>
     
-  <button name="schedule" class="button"><span> Schedule </span></button>
-    
-  <span class="color_enabler">
-    <input type="checkbox" name="enable_color" id="enable_color" value="true"> 
-    <span>color mode</span>
-  </span>
-  
-  <footer class="contact_us">
-    <p>
-      <span id="userTime"></span>
-      <span class="right_footer">
-        <a href="mailto:jagdish.chauhan01@gmail.com" target="_blank">Contact us</a>
+    <p id="userDate"><span id="userName"></span>'s Date &amp; Time: <br/>
+      <input type = "text" id = "datepicker_user" class="date_time">
+      <input type = "time" id="user_time" class="date_time">
+    </p>
+
+    <div class="submit">
+      <!--<span id="clientTime"></span>-->
+      <span class="color_enabler">
+        <input type="checkbox" name="enable_color" id="enable_color" value="true"> 
+        <span>Color Mode</span>
       </span>
-    </p>    
-  </footer>
+      <span>
+        <button name="schedule" class="button" id="schedule"><span> Schedule </span></button>
+      </span>
+    </div>
+      
+    <!--
+    <footer class="contact_us">
+      <p>
+        <span id="userTime"></span>
+        <span class="right_footer">
+          <a href="mailto:jagdish.chauhan01@gmail.com" target="_blank">Contact us</a>
+        </span>
+      </p>    
+    </footer>
+  -->
+  </div>
 
   <script type="text/javascript" src="https://assets.zendesk.com/apps/sdk/2.0/zaf_sdk.js"></script>
   <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery/3.2.1/jquery.min.js"></script>

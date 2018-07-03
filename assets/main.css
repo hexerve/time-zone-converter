@@ -1,96 +1,173 @@
+* {
+  margin: 0; 
+  color: #4d4d4d;
+  overflow: hidden;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell,
+    "Helvetica Neue", Arial, sans-serif;
+}
+
+body {
+  border-left: 4px solid #03363D;
+  background-color: #F8F8F8;
+  padding: 2%;
+  margin-right: 2%;
+}
+
+input {
+  margin-top: 4px;
+}
+
+.container {
+  padding-left: 7px;
+}
+
 .contact_us {
     font-size: 12px;
     position: fixed;
     bottom: 0%;
-  }
+}
+
+.right_footer {
+  float: right;
+  padding-left: 30% !important;
+}
   
-  .right_footer {
-    float: right;
-    padding-left: 30% !important;
-  }
+code {
+  background-color: #f1f1f1 !important;
+}
   
-  code {
-    background-color: #f1f1f1 !important;
-  }
-  
-  .ui-datepicker table {
-    width: 50% !important;
-    font-size: 0.65em !important;
-  }
-  
-  #ui-datepicker-div {
-    height: 73% !important;
-    width: 49% !important;
-  }
-  
-  .ui-datepicker .ui-datepicker-title {
-    margin: 0 !important;
-    line-height: 1em !important;
-    font-size: 12px !important;
-  }
-  
-  .ui-datepicker .ui-datepicker-next {
-    right: 0px !important;
-    top: -30% !important;
-    width: 0.8em !important;
-    height: 0.8em !important;
-    margin-top: 6% !important;
-  }
-  
-  .ui-datepicker .ui-datepicker-prev {
-    left: 0px !important;
-    top: -30% !important;
-    width: 0.8em !important;
-    height: 0.8em !important;
-    margin-top: 6% !important;
-  }
-  
-  .button {
-    display: inline-block;
-    border-radius: 4px;
-    background-color: #404042;
-    border: none;
-    color: #FFFFFF;
-    text-align: center;
-    font-size: 16px;
-    padding: 4px;
-    width: 100px;
-  
-    transition: all 0.5s;
-    cursor: pointer;
-    margin: 5px;
-  }
-  
-  .button span {
-    cursor: pointer;
-    display: inline-block;
-    position: relative;
-    transition: 0.5s;
-  }
-  
-  .button span:after {
-    content: '\00bb';
-    position: absolute;
-    opacity: 0;
-    top: 0;
-    right: -15px;
-    transition: 0.5s;
-  }
-  
-  .button:hover span {
-    padding-right: 25px;
-  }
-  
-  .button:hover span:after {
-    opacity: 1;
-    right: 5px;
-  }
-  
-  #enable_color, #custDate {
-    margin: 5px 0;
-  }
-  
-  .color_enabler {
-    margin-top: 3%;
-    margin-left: 12%;
-  }
+.ui-datepicker table {
+  width: 50% !important;
+  font-size: 0.65em !important;
+}
+
+#ui-datepicker-div {
+  height: 87% !important;
+  width: 47% !important;
+  background-color: #e3e3e3 !important;
+}
+
+.ui-datepicker .ui-datepicker-title {
+  margin: 0 !important;
+  line-height: 1em !important;
+  font-size: 12px !important;
+}
+
+.ui-datepicker .ui-datepicker-next {
+  right: 0px !important;
+  top: -30% !important;
+  width: 0.8em !important;
+  height: 0.8em !important;
+  margin-top: 6% !important;
+}
+
+.ui-datepicker .ui-datepicker-prev {
+  left: 0px !important;
+  top: -30% !important;
+  width: 0.8em !important;
+  height: 0.8em !important;
+  margin-top: 6% !important;
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+  border: none !important;
+}
+
+p #user_time {
+  margin-bottom: 5%;
+}
+
+.button {
+  float: right;
+  margin-right: 3%;
+  margin-top: 0;
+  border-radius: 4px;
+  background-color: #03363D;
+  border: none;
+  color: #FFFFFF !important;
+  text-align: center;
+  font-size: 16px;
+  padding: 4px;
+  width: 100px;
+
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.button span {
+  color: #FFFFFF !important;
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -15px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 5px;
+}
+
+#enable_color {
+  margin: 5px 0;
+}
+
+.color_enabler {
+  font-weight: 600;
+  font-size: 15px;
+  margin-top: 3%;
+}
+
+.date_time {
+  width: 50%;
+  letter-spacing: 4px;
+  font-size: 12px;
+  height: 26px;
+  word-spacing: -1px;
+  border: none;
+  padding-left: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.date_time_red {
+  background-color: rgba(239, 184, 169, 0.2);
+  border-bottom: 2px solid #EFB8A9;
+  margin-bottom: 10px;
+}
+
+.date_time_green {
+  background-color:rgba(48, 170, 188, 0.2);
+  border-bottom: 2px solid #30AABC;
+}
+
+.date_time_white {
+  border-bottom: 2px solid #c1c1c1;
+}
+
+#customer_time, #user_time {
+  width: 45% !important;
+  padding-left: 12px !important;  
+}
+
+#userDate, #custDate {
+  color: #4d4d4d;
+  font-weight: 600;
+}
+
+#userName, #custName {
+  font-weight: bold;
+}
