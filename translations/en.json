@@ -2,7 +2,7 @@
   "app": {
     "name": "Time Zone Converter",
     "short_description": "This is an app to schedule a meeting or find user-client time compatibility.",
-    "long_description": "Working with Zendesk tool is already a fascinating thing however every user has a different requirement. If a customer is from different geographical location and agent from different, we normally face inconvenience while converting the time as per user and agents feasibility. Hence introduce "Time Zone Converter" app which will solve the hectic problem by converting user's time with agent time and vice versa. Once it is done, agent can schedule the call using Zendesk core component to remind the agent for the callback in future as per their choices. By this, agent can easily reach to the customer when they want.",
+    "long_description": "Working with Zendesk tool is already a fascinating thing however every user has a different requirement. If a customer is from different geographical location and agent from different, we normally face inconvenience while converting the time as per user and agents feasibility. Hence introduce 'Time Zone Converter' app which will solve the hectic problem by converting user's time with agent time and vice versa. Once it is done, agent can schedule the call using Zendesk core component to remind the agent for the callback in future as per their choices. By this, agent can easily reach to the customer when they want.",
     "installation_instructions": "Simply click install."
   }
 }
