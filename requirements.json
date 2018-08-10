@@ -15,12 +15,12 @@
             "actions": [{
                 "field": "notification_user",
                 "value": ["requester_id", "Meeting Scheduled",
-                    "Ticket {{ticket.id}} has succesfully schedule a meeting. {{ticket.latest_public_comment_formatted}}"]
+                    "Ticket {{ticket.id}} has succesfully scheduled a meeting. {{ticket.latest_public_comment_formatted}}"]
             },
             {
                 "field": "notification_user",
                 "value": ["assignee_id", "Meeting Scheduled", 
-                    "Ticket {{ticket.id}} has succesfully schedule a meeting. {{ticket.latest_public_comment_formatted}}"]  
+                    "Ticket {{ticket.id}} has succesfully scheduled a meeting. {{ticket.latest_public_comment_formatted}}"]  
             }]
         }
     },
@@ -47,12 +47,12 @@
             "actions": [{
                 "field": "notification_user",
                 "value": ["requester_id", "Reminder: Meeting Scheduled",
-                    "Ticket {{ticket.id}} has succesfully schedule a meeting. {{ticket.latest_public_comment_formatted}}"]
+                    "Ticket {{ticket.id}} has succesfully scheduled a meeting. {{ticket.latest_public_comment_formatted}}"]
             },
             {
                 "field": "notification_user",
                 "value": ["assignee_id", "Reminder: Meeting Scheduled", 
-                    "Ticket {{ticket.id}} has succesfully schedule a meeting. {{ticket.latest_public_comment_formatted}}"]  
+                    "Ticket {{ticket.id}} has succesfully scheduled a meeting. {{ticket.latest_public_comment_formatted}}"]  
             },
             {
                 "field": "remove_tags",
@@ -81,12 +81,12 @@
             "actions": [{
                 "field": "notification_user",
                 "value": ["requester_id", "Reminder: Meeting Scheduled",
-                    "Ticket {{ticket.id}} has succesfully schedule a meeting. {{ticket.latest_public_comment_formatted}}"]
+                    "Ticket {{ticket.id}} has succesfully scheduled a meeting. {{ticket.latest_public_comment_formatted}}"]
             },
             {
                 "field": "notification_user",
                 "value": ["assignee_id", "Reminder: Meeting Scheduled", 
-                    "Ticket {{ticket.id}} has succesfully schedule a meeting. {{ticket.latest_public_comment_formatted}}"]  
+                    "Ticket {{ticket.id}} has succesfully scheduled a meeting. {{ticket.latest_public_comment_formatted}}"]  
             },
             {
                 "field": "remove_tags",
@@ -115,12 +115,12 @@
             "actions": [{
                 "field": "notification_user",
                 "value": ["requester_id", "Reminder: Meeting Scheduled",
-                    "Ticket {{ticket.id}} has succesfully schedule a meeting. {{ticket.latest_public_comment_formatted}}"]
+                    "Ticket {{ticket.id}} has succesfully scheduled a meeting. {{ticket.latest_public_comment_formatted}}"]
             },
             {
                 "field": "notification_user",
                 "value": ["assignee_id", "Reminder: Meeting Scheduled", 
-                    "Ticket {{ticket.id}} has succesfully schedule a meeting. {{ticket.latest_public_comment_formatted}}"]  
+                    "Ticket {{ticket.id}} has succesfully scheduled a meeting. {{ticket.latest_public_comment_formatted}}"]  
             },
             {
                 "field": "remove_tags",
@@ -149,12 +149,12 @@
             "actions": [{
                 "field": "notification_user",
                 "value": ["requester_id", "Reminder: Meeting Scheduled",
-                    "Ticket {{ticket.id}} has succesfully schedule a meeting. {{ticket.latest_public_comment_formatted}}"]
+                    "Ticket {{ticket.id}} has succesfully scheduled a meeting. {{ticket.latest_public_comment_formatted}}"]
             },
             {
                 "field": "notification_user",
                 "value": ["assignee_id", "Reminder: Meeting Scheduled", 
-                    "Ticket {{ticket.id}} has succesfully schedule a meeting. {{ticket.latest_public_comment_formatted}}"]  
+                    "Ticket {{ticket.id}} has succesfully scheduled a meeting. {{ticket.latest_public_comment_formatted}}"]  
             },
             {
                 "field": "remove_tags",
@@ -183,12 +183,12 @@
             "actions": [{
                 "field": "notification_user",
                 "value": ["requester_id", "Reminder: Meeting Scheduled",
-                    "Ticket {{ticket.id}} has succesfully schedule a meeting. {{ticket.latest_public_comment_formatted}}"]
+                    "Ticket {{ticket.id}} has succesfully scheduled a meeting. {{ticket.latest_public_comment_formatted}}"]
             },
             {
                 "field": "notification_user",
                 "value": ["assignee_id", "Reminder: Meeting Scheduled", 
-                    "Ticket {{ticket.id}} has succesfully schedule a meeting. {{ticket.latest_public_comment_formatted}}"]  
+                    "Ticket {{ticket.id}} has succesfully scheduled a meeting. {{ticket.latest_public_comment_formatted}}"]  
             },
             {
                 "field": "remove_tags",
@@ -217,12 +217,12 @@
             "actions": [{
                 "field": "notification_user",
                 "value": ["requester_id", "Reminder: Meeting Scheduled",
-                    "Ticket {{ticket.id}} has succesfully schedule a meeting. {{ticket.latest_public_comment_formatted}}"]
+                    "Ticket {{ticket.id}} has succesfully scheduled a meeting. {{ticket.latest_public_comment_formatted}}"]
             },
             {
                 "field": "notification_user",
                 "value": ["assignee_id", "Reminder: Meeting Scheduled", 
-                    "Ticket {{ticket.id}} has succesfully schedule a meeting. {{ticket.latest_public_comment_formatted}}"]  
+                    "Ticket {{ticket.id}} has succesfully scheduled a meeting. {{ticket.latest_public_comment_formatted}}"]  
             },
             {
                 "field": "remove_tags",
@@ -251,12 +251,12 @@
             "actions": [{
                 "field": "notification_user",
                 "value": ["requester_id", "Reminder: Meeting Scheduled",
-                    "Ticket {{ticket.id}} has succesfully schedule a meeting. {{ticket.latest_public_comment_formatted}}"]
+                    "Ticket {{ticket.id}} has succesfully scheduled a meeting. {{ticket.latest_public_comment_formatted}}"]
             },
             {
                 "field": "notification_user",
                 "value": ["assignee_id", "Reminder: Meeting Scheduled", 
-                    "Ticket {{ticket.id}} has succesfully schedule a meeting. {{ticket.latest_public_comment_formatted}}"]  
+                    "Ticket {{ticket.id}} has succesfully scheduled a meeting. {{ticket.latest_public_comment_formatted}}"]  
             },
             {
                 "field": "remove_tags",
@@ -285,12 +285,12 @@
             "actions": [{
                 "field": "notification_user",
                 "value": ["requester_id", "Reminder: Meeting Scheduled",
-                    "Ticket {{ticket.id}} has succesfully schedule a meeting. {{ticket.latest_public_comment_formatted}}"]
+                    "Ticket {{ticket.id}} has succesfully scheduled a meeting. {{ticket.latest_public_comment_formatted}}"]
             },
             {
                 "field": "notification_user",
                 "value": ["assignee_id", "Reminder: Meeting Scheduled", 
-                    "Ticket {{ticket.id}} has succesfully schedule a meeting. {{ticket.latest_public_comment_formatted}}"]  
+                    "Ticket {{ticket.id}} has succesfully scheduled a meeting. {{ticket.latest_public_comment_formatted}}"]  
             },
             {
                 "field": "remove_tags",
@@ -319,12 +319,12 @@
             "actions": [{
                 "field": "notification_user",
                 "value": ["requester_id", "Reminder: Meeting Scheduled",
-                    "Ticket {{ticket.id}} has succesfully schedule a meeting. {{ticket.latest_public_comment_formatted}}"]
+                    "Ticket {{ticket.id}} has succesfully scheduled a meeting. {{ticket.latest_public_comment_formatted}}"]
             },
             {
                 "field": "notification_user",
                 "value": ["assignee_id", "Reminder: Meeting Scheduled", 
-                    "Ticket {{ticket.id}} has succesfully schedule a meeting. {{ticket.latest_public_comment_formatted}}"]  
+                    "Ticket {{ticket.id}} has succesfully scheduled a meeting. {{ticket.latest_public_comment_formatted}}"]  
             },
             {
                 "field": "remove_tags",
@@ -352,12 +352,12 @@
             "actions": [{
                 "field": "notification_user",
                 "value": ["requester_id", "Reminder: Meeting Scheduled",
-                    "Ticket {{ticket.id}} has succesfully schedule a meeting. {{ticket.latest_public_comment_formatted}}"]
+                    "Ticket {{ticket.id}} has succesfully scheduled a meeting. {{ticket.latest_public_comment_formatted}}"]
             },
             {
                 "field": "notification_user",
                 "value": ["assignee_id", "Reminder: Meeting Scheduled", 
-                    "Ticket {{ticket.id}} has succesfully schedule a meeting. {{ticket.latest_public_comment_formatted}}"]  
+                    "Ticket {{ticket.id}} has succesfully scheduled a meeting. {{ticket.latest_public_comment_formatted}}"]  
             },
             {
                 "field": "remove_tags",
@@ -386,12 +386,12 @@
             "actions": [{
                 "field": "notification_user",
                 "value": ["requester_id", "Reminder: Meeting Scheduled",
-                    "Ticket {{ticket.id}} has succesfully schedule a meeting. {{ticket.latest_public_comment_formatted}}"]
+                    "Ticket {{ticket.id}} has succesfully scheduled a meeting. {{ticket.latest_public_comment_formatted}}"]
             },
             {
                 "field": "notification_user",
                 "value": ["assignee_id", "Reminder: Meeting Scheduled", 
-                    "Ticket {{ticket.id}} has succesfully schedule a meeting. {{ticket.latest_public_comment_formatted}}"]  
+                    "Ticket {{ticket.id}} has succesfully scheduled a meeting. {{ticket.latest_public_comment_formatted}}"]  
             },
             {
                 "field": "remove_tags",
@@ -420,12 +420,12 @@
             "actions": [{
                 "field": "notification_user",
                 "value": ["requester_id", "Reminder: Meeting Scheduled",
-                    "Ticket {{ticket.id}} has succesfully schedule a meeting. {{ticket.latest_public_comment_formatted}}"]
+                    "Ticket {{ticket.id}} has succesfully scheduled a meeting. {{ticket.latest_public_comment_formatted}}"]
             },
             {
                 "field": "notification_user",
                 "value": ["assignee_id", "Reminder: Meeting Scheduled", 
-                    "Ticket {{ticket.id}} has succesfully schedule a meeting. {{ticket.latest_public_comment_formatted}}"]  
+                    "Ticket {{ticket.id}} has succesfully scheduled a meeting. {{ticket.latest_public_comment_formatted}}"]  
             },
             {
                 "field": "remove_tags",
@@ -454,12 +454,12 @@
             "actions": [{
                 "field": "notification_user",
                 "value": ["requester_id", "Reminder: Meeting Scheduled",
-                    "Ticket {{ticket.id}} has succesfully schedule a meeting. {{ticket.latest_public_comment_formatted}}"]
+                    "Ticket {{ticket.id}} has succesfully scheduled a meeting. {{ticket.latest_public_comment_formatted}}"]
             },
             {
                 "field": "notification_user",
                 "value": ["assignee_id", "Reminder: Meeting Scheduled", 
-                    "Ticket {{ticket.id}} has succesfully schedule a meeting. {{ticket.latest_public_comment_formatted}}"]  
+                    "Ticket {{ticket.id}} has succesfully scheduled a meeting. {{ticket.latest_public_comment_formatted}}"]  
             },
             {
                 "field": "remove_tags",
@@ -488,12 +488,12 @@
             "actions": [{
                 "field": "notification_user",
                 "value": ["requester_id", "Reminder: Meeting Scheduled",
-                    "Ticket {{ticket.id}} has succesfully schedule a meeting. {{ticket.latest_public_comment_formatted}}"]
+                    "Ticket {{ticket.id}} has succesfully scheduled a meeting. {{ticket.latest_public_comment_formatted}}"]
             },
             {
                 "field": "notification_user",
                 "value": ["assignee_id", "Reminder: Meeting Scheduled", 
-                    "Ticket {{ticket.id}} has succesfully schedule a meeting. {{ticket.latest_public_comment_formatted}}"]  
+                    "Ticket {{ticket.id}} has succesfully scheduled a meeting. {{ticket.latest_public_comment_formatted}}"]  
             },
             {
                 "field": "remove_tags",
@@ -522,12 +522,12 @@
             "actions": [{
                 "field": "notification_user",
                 "value": ["requester_id", "Reminder: Meeting Scheduled",
-                    "Ticket {{ticket.id}} has succesfully schedule a meeting. {{ticket.latest_public_comment_formatted}}"]
+                    "Ticket {{ticket.id}} has succesfully scheduled a meeting. {{ticket.latest_public_comment_formatted}}"]
             },
             {
                 "field": "notification_user",
                 "value": ["assignee_id", "Reminder: Meeting Scheduled", 
-                    "Ticket {{ticket.id}} has succesfully schedule a meeting. {{ticket.latest_public_comment_formatted}}"]  
+                    "Ticket {{ticket.id}} has succesfully scheduled a meeting. {{ticket.latest_public_comment_formatted}}"]  
             },
             {
                 "field": "remove_tags",
@@ -556,12 +556,12 @@
             "actions": [{
                 "field": "notification_user",
                 "value": ["requester_id", "Reminder: Meeting Scheduled",
-                    "Ticket {{ticket.id}} has succesfully schedule a meeting. {{ticket.latest_public_comment_formatted}}"]
+                    "Ticket {{ticket.id}} has succesfully scheduled a meeting. {{ticket.latest_public_comment_formatted}}"]
             },
             {
                 "field": "notification_user",
                 "value": ["assignee_id", "Reminder: Meeting Scheduled", 
-                    "Ticket {{ticket.id}} has succesfully schedule a meeting. {{ticket.latest_public_comment_formatted}}"]  
+                    "Ticket {{ticket.id}} has succesfully scheduled a meeting. {{ticket.latest_public_comment_formatted}}"]  
             },
             {
                 "field": "remove_tags",
@@ -590,12 +590,12 @@
             "actions": [{
                 "field": "notification_user",
                 "value": ["requester_id", "Reminder: Meeting Scheduled",
-                    "Ticket {{ticket.id}} has succesfully schedule a meeting. {{ticket.latest_public_comment_formatted}}"]
+                    "Ticket {{ticket.id}} has succesfully scheduled a meeting. {{ticket.latest_public_comment_formatted}}"]
             },
             {
                 "field": "notification_user",
                 "value": ["assignee_id", "Reminder: Meeting Scheduled", 
-                    "Ticket {{ticket.id}} has succesfully schedule a meeting. {{ticket.latest_public_comment_formatted}}"]  
+                    "Ticket {{ticket.id}} has succesfully scheduled a meeting. {{ticket.latest_public_comment_formatted}}"]  
             },
             {
                 "field": "remove_tags",
@@ -624,12 +624,12 @@
             "actions": [{
                 "field": "notification_user",
                 "value": ["requester_id", "Reminder: Meeting Scheduled",
-                    "Ticket {{ticket.id}} has succesfully schedule a meeting. {{ticket.latest_public_comment_formatted}}"]
+                    "Ticket {{ticket.id}} has succesfully scheduled a meeting. {{ticket.latest_public_comment_formatted}}"]
             },
             {
                 "field": "notification_user",
                 "value": ["assignee_id", "Reminder: Meeting Scheduled", 
-                    "Ticket {{ticket.id}} has succesfully schedule a meeting. {{ticket.latest_public_comment_formatted}}"]  
+                    "Ticket {{ticket.id}} has succesfully scheduled a meeting. {{ticket.latest_public_comment_formatted}}"]  
             },
             {
                 "field": "remove_tags",
@@ -658,12 +658,12 @@
             "actions": [{
                 "field": "notification_user",
                 "value": ["requester_id", "Reminder: Meeting Scheduled",
-                    "Ticket {{ticket.id}} has succesfully schedule a meeting. {{ticket.latest_public_comment_formatted}}"]
+                    "Ticket {{ticket.id}} has succesfully scheduled a meeting. {{ticket.latest_public_comment_formatted}}"]
             },
             {
                 "field": "notification_user",
                 "value": ["assignee_id", "Reminder: Meeting Scheduled", 
-                    "Ticket {{ticket.id}} has succesfully schedule a meeting. {{ticket.latest_public_comment_formatted}}"]  
+                    "Ticket {{ticket.id}} has succesfully scheduled a meeting. {{ticket.latest_public_comment_formatted}}"]  
             },
             {
                 "field": "remove_tags",
@@ -692,12 +692,12 @@
             "actions": [{
                 "field": "notification_user",
                 "value": ["requester_id", "Reminder: Meeting Scheduled",
-                    "Ticket {{ticket.id}} has succesfully schedule a meeting. {{ticket.latest_public_comment_formatted}}"]
+                    "Ticket {{ticket.id}} has succesfully scheduled a meeting. {{ticket.latest_public_comment_formatted}}"]
             },
             {
                 "field": "notification_user",
                 "value": ["assignee_id", "Reminder: Meeting Scheduled", 
-                    "Ticket {{ticket.id}} has succesfully schedule a meeting. {{ticket.latest_public_comment_formatted}}"]  
+                    "Ticket {{ticket.id}} has succesfully scheduled a meeting. {{ticket.latest_public_comment_formatted}}"]  
             },
             {
                 "field": "remove_tags",
@@ -726,12 +726,12 @@
             "actions": [{
                 "field": "notification_user",
                 "value": ["requester_id", "Reminder: Meeting Scheduled",
-                    "Ticket {{ticket.id}} has succesfully schedule a meeting. {{ticket.latest_public_comment_formatted}}"]
+                    "Ticket {{ticket.id}} has succesfully scheduled a meeting. {{ticket.latest_public_comment_formatted}}"]
             },
             {
                 "field": "notification_user",
                 "value": ["assignee_id", "Reminder: Meeting Scheduled", 
-                    "Ticket {{ticket.id}} has succesfully schedule a meeting. {{ticket.latest_public_comment_formatted}}"]  
+                    "Ticket {{ticket.id}} has succesfully scheduled a meeting. {{ticket.latest_public_comment_formatted}}"]  
             },
             {
                 "field": "remove_tags",
@@ -760,12 +760,12 @@
             "actions": [{
                 "field": "notification_user",
                 "value": ["requester_id", "Reminder: Meeting Scheduled",
-                    "Ticket {{ticket.id}} has succesfully schedule a meeting. {{ticket.latest_public_comment_formatted}}"]
+                    "Ticket {{ticket.id}} has succesfully scheduled a meeting. {{ticket.latest_public_comment_formatted}}"]
             },
             {
                 "field": "notification_user",
                 "value": ["assignee_id", "Reminder: Meeting Scheduled", 
-                    "Ticket {{ticket.id}} has succesfully schedule a meeting. {{ticket.latest_public_comment_formatted}}"]  
+                    "Ticket {{ticket.id}} has succesfully scheduled a meeting. {{ticket.latest_public_comment_formatted}}"]  
             },
             {
                 "field": "remove_tags",
@@ -794,12 +794,12 @@
             "actions": [{
                 "field": "notification_user",
                 "value": ["requester_id", "Reminder: Meeting Scheduled",
-                    "Ticket {{ticket.id}} has succesfully schedule a meeting. {{ticket.latest_public_comment_formatted}}"]
+                    "Ticket {{ticket.id}} has succesfully scheduled a meeting. {{ticket.latest_public_comment_formatted}}"]
             },
             {
                 "field": "notification_user",
                 "value": ["assignee_id", "Reminder: Meeting Scheduled", 
-                    "Ticket {{ticket.id}} has succesfully schedule a meeting. {{ticket.latest_public_comment_formatted}}"]  
+                    "Ticket {{ticket.id}} has succesfully scheduled a meeting. {{ticket.latest_public_comment_formatted}}"]  
             },
             {
                 "field": "remove_tags",
@@ -828,12 +828,12 @@
             "actions": [{
                 "field": "notification_user",
                 "value": ["requester_id", "Reminder: Meeting Scheduled",
-                    "Ticket {{ticket.id}} has succesfully schedule a meeting. {{ticket.latest_public_comment_formatted}}"]
+                    "Ticket {{ticket.id}} has succesfully scheduled a meeting. {{ticket.latest_public_comment_formatted}}"]
             },
             {
                 "field": "notification_user",
                 "value": ["assignee_id", "Reminder: Meeting Scheduled", 
-                    "Ticket {{ticket.id}} has succesfully schedule a meeting. {{ticket.latest_public_comment_formatted}}"]  
+                    "Ticket {{ticket.id}} has succesfully scheduled a meeting. {{ticket.latest_public_comment_formatted}}"]  
             },
             {
                 "field": "remove_tags",
@@ -862,12 +862,12 @@
             "actions": [{
                 "field": "notification_user",
                 "value": ["requester_id", "Reminder: Meeting Scheduled",
-                    "Ticket {{ticket.id}} has succesfully schedule a meeting. {{ticket.latest_public_comment_formatted}}"]
+                    "Ticket {{ticket.id}} has succesfully scheduled a meeting. {{ticket.latest_public_comment_formatted}}"]
             },
             {
                 "field": "notification_user",
                 "value": ["assignee_id", "Reminder: Meeting Scheduled", 
-                    "Ticket {{ticket.id}} has succesfully schedule a meeting. {{ticket.latest_public_comment_formatted}}"]  
+                    "Ticket {{ticket.id}} has succesfully scheduled a meeting. {{ticket.latest_public_comment_formatted}}"]  
             }]
         },
         "email_reminder_for_schedule_conversation_before_two_day": {
@@ -892,12 +892,12 @@
             "actions": [{
                 "field": "notification_user",
                 "value": ["requester_id", "Reminder: Meeting Scheduled",
-                    "Ticket {{ticket.id}} has succesfully schedule a meeting. {{ticket.latest_public_comment_formatted}}"]
+                    "Ticket {{ticket.id}} has succesfully scheduled a meeting. {{ticket.latest_public_comment_formatted}}"]
             },
             {
                 "field": "notification_user",
                 "value": ["assignee_id", "Reminder: Meeting Scheduled", 
-                    "Ticket {{ticket.id}} has succesfully schedule a meeting. {{ticket.latest_public_comment_formatted}}"]  
+                    "Ticket {{ticket.id}} has succesfully scheduled a meeting. {{ticket.latest_public_comment_formatted}}"]  
             }]
         },
         "email_reminder_for_schedule_conversation_before_three_day": {
@@ -922,12 +922,12 @@
             "actions": [{
                 "field": "notification_user",
                 "value": ["requester_id", "Reminder: Meeting Scheduled",
-                    "Ticket {{ticket.id}} has succesfully schedule a meeting. {{ticket.latest_public_comment_formatted}}"]
+                    "Ticket {{ticket.id}} has succesfully scheduled a meeting. {{ticket.latest_public_comment_formatted}}"]
             },
             {
                 "field": "notification_user",
                 "value": ["assignee_id", "Reminder: Meeting Scheduled", 
-                    "Ticket {{ticket.id}} has succesfully schedule a meeting. {{ticket.latest_public_comment_formatted}}"]  
+                    "Ticket {{ticket.id}} has succesfully scheduled a meeting. {{ticket.latest_public_comment_formatted}}"]  
             }]
         }
     }
