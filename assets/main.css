@@ -1,5 +1,5 @@
 * {
-  margin: 0; 
+  margin: 0;
   color: #4d4d4d;
   overflow: hidden;
   font-family: system-ui, -apple-system, BlinkMacSystemFont,
@@ -18,25 +18,29 @@ input {
   margin-top: 4px;
 }
 
+input[type="time"]::-webkit-clear-button {
+  display: none;
+}
+
 .container {
   padding-left: 7px;
 }
 
 .contact_us {
-    font-size: 12px;
-    position: fixed;
-    bottom: 0%;
+  font-size: 12px;
+  position: fixed;
+  bottom: 0%;
 }
 
 .right_footer {
   float: right;
   padding-left: 30% !important;
 }
-  
+
 code {
   background-color: #f1f1f1 !important;
 }
-  
+
 .ui-datepicker table {
   width: 50% !important;
   font-size: 0.65em !important;
@@ -70,7 +74,9 @@ code {
   margin-top: 6% !important;
 }
 
-.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+.ui-state-default,
+.ui-widget-content .ui-state-default,
+.ui-widget-header .ui-state-default {
   border: none !important;
 }
 
@@ -150,7 +156,7 @@ p #user_time {
 }
 
 .date_time_green {
-  background-color:rgba(48, 170, 188, 0.2);
+  background-color: rgba(48, 170, 188, 0.2);
   border-bottom: 2px solid #30AABC;
 }
 
@@ -158,16 +164,34 @@ p #user_time {
   border-bottom: 2px solid #c1c1c1;
 }
 
-#customer_time, #user_time {
-  width: 45% !important;
-  padding-left: 12px !important;  
+#customer_time,
+#user_time {
+  width: 46% !important;
+  padding-left: 12px !important;
 }
 
-#userDate, #custDate {
+#userDate,
+#custDate {
   color: #4d4d4d;
   font-weight: 600;
 }
 
-#userName, #custName {
+#userName,
+#custName {
   font-weight: bold;
+}
+
+@supports (-moz-appearance:none) {
+
+  #customer_time,
+  #user_time {
+
+    width: 48% !important;
+    padding-left: 8px !important;
+
+  }
+
+  input[type="time"] {
+    clip-path: inset(0 18px 0 0);
+  }
 }
